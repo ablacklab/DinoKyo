@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+  
+.pet-container {
+    text-align: center;
+}
+  
+#pet {
+    width: 80vw;
+}
+
+.petimg{
+    width: 100%;
+}
+  
+.stat-bar {
+    width: 80vw;
+    height: 20px;
+    background-color: #ddd;
+    margin-bottom: 10px;
+}
+  
+.actions button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+    
