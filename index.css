@@ -9,10 +9,17 @@ body {
   
 .pet-container {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
   
 #pet {
-    width: 80vw;
+    width: 100vw;
+}
+
+#pet h2{
+    margin: 0;
 }
 
 .petimg{
@@ -21,15 +28,30 @@ body {
   
 .stat-bar {
     width: 80vw;
-    height: 20px;
-    background-color: #ddd;
-    margin-bottom: 10px;
+    display: flex;
+    gap: 8px;
+    padding: 8px;
+    margin: 8px;
+    border: 2px;
+    border-radius: 15px;
+    border-color: #908488;
+    border-style: solid;
+
+}
+
+.stat-bar img{
+    width: 8%;
 }
   
-.actions button {
-    margin: 5px;
-    padding: 10px;
-    font-size: 16px;
+.actions{
+    display: flex;
+    width: 80vw;
+    justify-content: space-around;
+    margin: 24px;
+}
+
+.actions img{
+    width: 15%;
 }
 
     
